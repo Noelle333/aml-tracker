@@ -2,4 +2,7 @@
 db.sqlite3
 # Environment variables
 .env
+# Django settings (contains SECRET_KEY)
+aml_tracker/settings.py
+
 
