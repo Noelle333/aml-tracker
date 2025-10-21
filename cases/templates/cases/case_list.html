@@ -25,7 +25,7 @@
                         <option value="review" {% if case.status == 'review' %}selected{% endif %}>Under Review</option>
                         <option value="closed" {% if case.status == 'closed' %}selected{% endif %}>Closed</option>
                     </select>
-                    <button type="submit" class="btn btn-sm btn-primary mt-1">Update</button>
+                    <button type="submit" class="btn btn-sm btn-success mb-3">Update</button>
                 </form>
             </td>
             <td>{{ case.created_at }}</td>
