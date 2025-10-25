@@ -59,3 +59,5 @@ def cases_chart(request):
     labels = [d['status'] for d in data]
     counts = [d['count'] for d in data]
     return render(request, 'cases/cases_chart.html', {'labels': labels, 'data': counts})
+    
+
